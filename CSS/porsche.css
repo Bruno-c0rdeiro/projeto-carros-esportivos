@@ -1,0 +1,662 @@
+@media screen and (min-width:1440px){
+
+:root{
+
+    --cor-do-header:#282A3A;
+    --cor-titulo-principal:white;
+    
+    }
+    
+    body{
+    background-color: var(--cor-do-header);
+    
+    
+    
+    }
+
+
+
+
+/*cabecalho*/
+
+
+.cabecalho-porshe{
+
+background-color: var(--cor-do-header);
+
+display: flex;
+
+align-items: end;
+
+background: url(https://cdn.motor1.com/images/mgl/8APvRq/s1/2023-porsche-taycan.jpg );
+justify-content: space-between;
+height: 550px;
+ opacity: 0.8;
+margin: 1em 0;
+border-radius: 10px;
+}
+
+.cabecalho-titulo{
+
+font-size: 2.5em;
+color: var(--cor-titulo-principal);
+display: flex;
+align-self: self-start;
+text-transform: uppercase;
+padding-top: 2.5em;
+justify-self: start;
+ text-shadow:10px 10px 2px black;
+padding-left: 1em;
+font-family: 'Caveat', cursive;
+font-weight: 700;
+
+}
+
+
+ 
+
+.links-porche-header{
+
+display: flex;
+font-size: 2.5em;
+  font-family: 'Caveat', cursive;
+font-weight: 700;
+
+
+
+}
+
+.link-lista{
+display: flex;
+text-decoration: none;
+color: var(--cor-titulo-principal);
+padding: 1em 1em 2.5em 1em;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+.link-lista:hover{
+
+text-decoration: underline aliceblue;
+color: aliceblue;
+
+}
+
+/*conteudo principal*/
+
+.logo-porche{
+background: linear-gradient(#282a3a,rgba(255, 0, 0, 0.079));
+display: flex;
+justify-content: center;
+opacity: 0.7;
+margin: 1.5em 0;
+}
+
+.porsche-red-imagem{
+    
+    width: 100%;
+    height: 550px;
+    opacity: 0.8;
+  
+    }
+
+
+.imgmacan,.imgtaycan{
+    width: 420px;
+    height: 300px;
+    border: 5px solid aliceblue;
+    border-radius: 10px;
+}
+.video-porshe-1-2{
+
+border-radius: 10px;
+
+
+}
+
+
+.container-ptaycan,.container-lista-macan{
+
+display: flex;
+justify-content: space-evenly;
+margin: 1.5em 0;
+
+}
+
+
+.titulo-taycan,.titulo-macan,.titulo-porsche911{
+
+display: flex;
+justify-content: center;
+
+color: var(--cor-titulo-principal);
+font-weight: 700;
+text-transform: uppercase;
+margin: 1.5em 0;
+
+}
+
+.pdamacan,.pdotaycan{
+
+width: 250px;
+color: grey;
+opacity: 0.7;
+
+font-size: 20px;
+
+
+}
+
+
+.container-porsche911{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+font-size: 1.5em;
+padding: 1em 1em;
+padding: 1em;
+}
+.texto-911{
+    width: 46vw;
+    padding: 0.5em;
+  
+}
+
+.link911{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.imgp911{
+
+box-shadow: 0 10px 19px 0 black;
+width: 50vw;
+
+}
+
+.paragrafo-da911{
+
+padding: 2em;
+font-size: 1.5em;
+text-decoration: none;
+color: aliceblue;
+display: flex;
+align-self: center;
+text-decoration: underline aliceblue;
+
+}
+
+
+
+.video-911{
+
+border-radius: 10px;
+padding-bottom: 1em;
+
+}
+
+
+
+
+/*rodape*/
+
+
+.rodape-porshe{
+
+background: url(img/bg.jpg);
+display: flex;
+justify-content: center;
+
+}
+
+.imagem-rodape{
+
+padding: 1em 0;
+
+}
+
+.rodapecopy{
+
+color: aliceblue;
+font-size: 1em;
+display: flex;
+align-self: flex-end;
+padding: 1em;
+}
+
+.imglogoporsche-cell{
+    display: none;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+
+    :root{
+
+        --cor-do-header:#282A3A;
+        --cor-titulo-principal:white;
+        
+        }
+        
+        body{
+        background-color: var(--cor-do-header);
+        
+        
+        
+        }
+    
+    
+    
+    
+    /*cabecalho*/
+    
+    
+    .cabecalho-porshe{
+    display: flex;
+    align-items: end;
+    background: url(https://cdn.motor1.com/images/mgl/8APvRq/s1/2023-porsche-taycan.jpg );
+    justify-content: space-between;
+    height: 30vh;
+    width: 100vw;
+     opacity: 0.8;
+    }
+    
+    .cabecalho-titulo{
+    
+    font-size: 2.5em;
+    color: var(--cor-titulo-principal);
+    display: flex;
+    align-self: self-start;
+    text-transform: uppercase;
+    padding-top: 2.5em;
+    justify-self: start;
+     text-shadow:10px 10px 2px black;
+    padding-left: 1em;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    
+    }
+    
+    
+    
+    .links-porche-header{
+    
+    display: flex;
+    font-size: 1.3em;
+      font-family: 'Caveat', cursive;
+    font-weight: 700;
+   
+    
+    }
+    
+    .link-lista{
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-titulo-principal);
+    padding: 1em 1em 2.5em 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+    }
+
+    /*conteudo principal*/
+    
+    .logo-porche{
+    background: linear-gradient(#282a3a,rgba(255, 0, 0, 0.079));
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    margin: 1.5em 0;
+    }
+    
+    .porsche-red-imagem{
+        
+        width: 100%;
+        height: 40vh;
+        opacity: 0.8;
+      
+        }
+    
+    
+    .imagens-porsche{
+        width: 30vw;
+        height: 20vh;
+        border: 5px solid aliceblue;
+        border-radius: 10px;
+        display: flex;
+        justify-self: center;
+        
+    }
+    .video-porshe-1-2{
+    padding-top: 1em;
+    border-radius: 10px;
+    width: 90vw;
+    height: 20vh;
+    opacity: 0.7;
+    
+    }
+    
+    
+    .container-ptaycan,.container-lista-macan{
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+        
+
+    }
+    
+    
+    .titulo-taycan,.titulo-macan,.titulo-porsche911{
+    
+    display: flex;
+    justify-content: center;
+    
+    color: var(--cor-titulo-principal);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1.5em 0;
+    
+    }
+    
+    .pdamacan,.pdotaycan{
+    color: grey;
+    opacity: 0.7;
+    font-size: 20px;
+    width: 80vw;
+    text-align: center;
+    
+    }
+  
+    .container-porsche911{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 1em 1em;
+    padding: 1em;
+
+    }
+    .texto-911{
+        width: 80vw;
+        padding: 0.5em;
+        padding-top: 1em;
+        font-weight: bold;
+      
+    }
+    
+    .link911{
+    
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    .imgp911{
+    
+    box-shadow: 0 10px 19px 0 black;
+    width: 90vw;
+
+    }
+    
+    .paragrafo-da911{
+    
+    padding: 2em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    align-self: center;
+    text-decoration: underline aliceblue;
+    
+    }
+    
+    
+    
+    .video-911{
+    
+    border-radius: 10px;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    opacity: 0.8;
+    
+    }
+    
+    
+    
+    
+    /*rodape*/
+    
+    
+    .rodape-porshe{
+    
+    background: url(bg.jpg);
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .imagem-rodape{
+    
+    padding: 1em 0;
+    
+    }
+    
+    .rodapecopy{
+    
+    color: aliceblue;
+    font-size: 1em;
+    display: flex;
+    align-self: flex-end;
+    padding: 1em;
+    }
+    
+    .imglogoporsche-cell{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:425px){
+
+    :root{
+
+        --cor-do-header:#282A3A;
+        --cor-titulo-principal:white;
+        
+        }
+    body{
+        background-color:var(--cor-do-header) ;
+    }
+
+    
+        
+        /*header*/
+
+    .cabecalho-porshe{
+
+        background:var(--cor-do-header);
+
+        height: 30vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       
+       
+    }
+  
+
+    .imglogoporsche-cell{
+         width: 30vw;
+      
+        grid-area: 1 / 3 / 3 / 3 ;
+    }
+
+
+    .secao-links{
+     grid-area: 3/1/3/3;
+        align-items: flex-end;
+
+
+
+
+
+    }   
+
+    .links-porche-header{
+
+      padding-left: 1em;
+        font-size: 1.5em;
+
+    }
+
+
+    .link-lista{
+
+        padding-bottom: 1em;
+        text-decoration: none;
+        color: aliceblue;
+        font-family:'Caveat', cursive;
+    }
+
+
+
+
+    .logo-porche{
+        display: none;
+    }
+
+    .cabecalho-titulo{
+        grid-area: 1/2/1/2;
+        display: flex;
+        align-items: end;
+        font-size: 1.5em;
+        font-weight: bold;
+        color:grey;
+        font-family: 'Caveat', cursive;
+    }
+
+
+    .porsche-red-imagem{
+
+        width: 100vw;
+        opacity: 0.8;
+
+    }
+
+
+
+    /*main*/
+
+    .container-conteudo-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+
+.container-ptaycan,.container-lista-macan,.container-porsche911{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    .imgtaycan,.imgmacan,.imgmacan{
+        width: 80vw;
+        border: 5px solid aliceblue;
+        border-radius: 20px;
+       
+      
+    }
+
+
+    .pdotaycan,.pdamacan,.pda911{
+
+    width: 80vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: grey;
+
+
+    }
+
+
+    .video-porshe-1-2{
+
+        width: 70vw;
+        height: 20vh;
+
+
+
+    }
+
+    .titulo-taycan,.titulo-macan,.titulo-porsche911{
+
+        color: #D8D9DA;
+        font-weight: 700;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 1.3em;
+        text-align: center;
+
+
+
+    }
+
+
+    .imgp911{
+
+        width: 100vw;
+
+
+    }
+    
+    .link911{
+        text-align: center;
+       
+     
+
+    
+    }
+    .paragrafo-da911{
+        color: aliceblue;
+        text-decoration: underline;
+    }
+
+
+    .video-911{
+
+        width: 100vw;
+        
+    }
+
+    .rodape-porshe{
+
+        background: url(data:image/jpeg;base64,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);
+
+        width: 100vw;
+        height: 20vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+
+    }
+
+    .imagem-rodape{
+        display: none;
+
+    }
+
+    .rodapecopy{
+        color: #D8D9DA;
+        font-weight: bold;
+
+    }
+}

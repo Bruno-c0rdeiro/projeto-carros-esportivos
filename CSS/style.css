@@ -1,0 +1,332 @@
+@media screen and (min-width: 1440px) {
+  body .cabecalho {
+    text-align: center;
+    background: radial-gradient(#F9E0BB, #FFF5B8);
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  body .cabecalho .cabecalho-titulo {
+    display: flex;
+    justify-self: start;
+    font-size: 2rem;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  body .cabecalho .cabecalho_lista {
+    display: flex;
+    justify-self: end;
+    align-self: end;
+    margin-bottom: 3em;
+  }
+  body .cabecalho .cabecalho_lista .link_lista {
+    padding: 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    text-shadow: 5px 5px 10px #D8D8D8;
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+  }
+  body .cabecalho .cabecalho_lista .link_lista:hover {
+    -webkit-text-decoration: underline deepskyblue;
+            text-decoration: underline deepskyblue;
+  }
+  body .cabecalho .imagem-cabecalho {
+    border-radius: 14px;
+    box-shadow: 4px 5px 12px 5px black;
+    align-self: center;
+    width: 275px;
+    height: 183px;
+  }
+  body .secao-cell {
+    display: none;
+  }
+  body .container-principal, body .container-secundario, body .container-terciario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #9DB2BF;
+  }
+  body .container-principal .imagem-container-principal, body .container-secundario .imagem-container-principal, body .container-terciario .imagem-container-principal {
+    margin: 2em 0 1em 2em;
+    width: 35%;
+    height: 85%;
+    border-radius: 15px;
+  }
+  body .container-principal .logo-audi, body .container-secundario .logo-audi, body .container-terciario .logo-audi {
+    display: flex;
+    align-self: center;
+    border-radius: 20px;
+  }
+  body .container-principal .container-principal-texto, body .container-secundario .container-principal-texto, body .container-terciario .container-principal-texto {
+    height: 10vh;
+    width: 40vw;
+    margin-right: 1em;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-left: 1em;
+  }
+  body .container-secundario {
+    display: flex;
+    justify-content: center;
+    background: #526D82;
+  }
+  body .container-secundario .titulo-pulma {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+  body .container-secundario .imagem-puma {
+    width: 20%;
+    padding-left: 20em;
+    border-radius: 20px;
+  }
+  body .container-terciario .container-terciario-imagem {
+    width: 35%;
+    height: 20%;
+    border-radius: 20px;
+    margin: 2em 0 1em 2em;
+  }
+  body .container-terciario .logo-ferrari {
+    display: flex;
+    justify-self: center;
+    height: 20%;
+    border-radius: 20px;
+  }
+  body .container-terciario .texto-container-terciario {
+    width: 20vw;
+    font-size: 2em;
+    margin-right: 1em;
+    font-weight: bold;
+  }
+  body .container-terciario .titulo-ferrari-cell {
+    display: none;
+  }
+  body .rodape {
+    display: flex;
+    justify-content: center;
+    background: #526D82;
+  }
+  body .rodape .imagem-rodape {
+    border-radius: 20px;
+    margin-top: 2rem;
+  }
+  body .rodape .texto-rodape {
+    display: flex;
+    align-self: end;
+    padding-left: 1em;
+    font-size: 1em;
+    color: #D8D8D8;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body .cabecalho {
+    display: flex;
+    background-color: #FFF5B8;
+    justify-content: space-between;
+  }
+  body .cabecalho .imagem-cabecalho {
+    width: 30vw;
+    display: flex;
+    justify-self: end;
+    border-radius: 20px;
+  }
+  body .cabecalho .cabecalho-titulo {
+    padding-top: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  body .cabecalho .cabecalho_lista {
+    display: flex;
+    align-items: end;
+    padding-bottom: 1em;
+  }
+  body .cabecalho .cabecalho_lista .link_lista {
+    padding-left: 1em;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #526D82;
+  }
+  body .container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+  }
+  body .container-principal .imagem-container-principal {
+    width: 100vw;
+  }
+  body .container-principal .container-principal-texto {
+    color: #D8D8D8;
+    width: 80vw;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  body .container-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9DB2BF;
+  }
+  body .container-secundario .titulo-pulma {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #D8D8D8;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  body .container-secundario .imagem-puma {
+    width: 50vw;
+    border-radius: 20px;
+  }
+  body .container-terciario {
+    text-align: center;
+    background: #9DB2BF;
+  }
+  body .container-terciario .container-terciario-imagem {
+    width: 40vw;
+    border-radius: 20px;
+  }
+  body .container-terciario .logo-ferrari {
+    width: 20vw;
+    padding-top: 1em;
+    border-radius: 20px;
+  }
+  body .container-terciario .titulo-ferrari-cell {
+    color: #D8D8D8;
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  body .container-terciario .texto-container-terciario {
+    color: #D8D8D8;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  body .rodape {
+    background: #526D82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .rodape .imagem-rodape {
+    border-radius: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  body .rodape .texto-rodape {
+    color: aliceblue;
+  }
+}
+@media screen and (max-width: 425px) {
+  body .cabecalho {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(#F9E0BB, #FFF5B8);
+  }
+  body .cabecalho .imagem-cabecalho {
+    width: 40vw;
+    border-radius: 20px;
+  }
+  body .cabecalho .cabecalho-titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: #9DB2BF;
+  }
+  body .cabecalho .cabecalho_lista {
+    display: flex;
+    padding-bottom: 0.4em;
+    padding-top: 1em;
+  }
+  body .cabecalho .cabecalho_lista .link_lista {
+    padding-right: 1em;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #526D82;
+  }
+  body .container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9DB2BF;
+    padding-top: 1em;
+  }
+  body .container-principal .logo-audi {
+    display: none;
+  }
+  body .container-principal .imagem-container-principal {
+    width: 40vw;
+    border-radius: 15px;
+  }
+  body .container-principal .container-principal-texto {
+    width: 70vw;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 1em;
+  }
+  body .container-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #526D82;
+  }
+  body .container-secundario .titulo-pulma {
+    padding-top: 1em;
+    font-weight: 700;
+    color: #D8D8D8;
+  }
+  body .container-secundario .imagem-puma {
+    border-radius: 10px;
+  }
+  body .container-terciario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9DB2BF;
+  }
+  body .container-terciario .container-terciario-imagem {
+    width: 80vw;
+    padding-top: 1em;
+    border-radius: 20px;
+    border: solid 2px #526D82;
+  }
+  body .container-terciario .logo-ferrari {
+    width: 80vw;
+    padding-top: 1em;
+    border: 3px solid red;
+    border-radius: 15px;
+  }
+  body .container-terciario .titulo-ferrari-cell {
+    font-weight: bold;
+    font-size: 1em;
+  }
+  body .container-terciario .texto-container-terciario {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  body .rodape {
+    background: url(bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .rodape .imagem-rodape {
+    width: 80vw;
+    border-radius: 20px;
+    padding-top: 1em;
+  }
+  body .rodape .texto-rodape {
+    color: aliceblue;
+  }
+}/*# sourceMappingURL=style.css.map */

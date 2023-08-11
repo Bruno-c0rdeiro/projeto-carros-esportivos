@@ -1,0 +1,497 @@
+@media screen and (min-width:1440px){
+
+:root{
+
+    --branco:white;
+    --cor__header: linear-gradient(grey,black);
+    
+    --cor-links-header-e-cor-titulo:linear-gradient(white,grey);
+    
+    --cor__titulo-secundario:radial-gradient(black,white);
+    
+    --cor-da-borda:rgb(130, 124, 124);
+    }
+    
+    body{
+    
+       background: radial-gradient(white,grey,rgb(70, 67, 67)); 
+    
+    
+    }
+    
+    .bannercarro{
+    
+        height: 520px;
+        
+        width: 100%;
+    
+    }
+    
+
+/*cabeçalho*/
+
+.cabecalho-carro{
+  
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+ 
+}
+.links{
+display: flex;
+padding: 1em 1em;
+box-sizing: border-box;
+
+white-space:nowrap ;
+
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Sono', sans-serif;;
+
+}
+.links-carro{
+display: flex;
+text-decoration: none;
+background: var(--cor-links-header-e-cor-titulo);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;  
+margin: 15px;
+font-size: 2em;
+margin-top: 5em;
+font-weight: bold;
+
+}
+.titulo-carroprincipal{
+    display: grid;
+    align-self: self-start;
+    padding: 1em 0;
+    font-size: 2.5em;
+    background: var(--cor-links-header-e-cor-titulo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    background-clip: text;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+}
+
+
+.cabecalho-carro{
+
+background: var(--cor__header);
+
+
+}
+
+
+.carrinho{
+
+width: 25%;
+    
+border: 5px solid grey;
+ }
+
+
+.links-carro:hover{
+
+text-decoration: underline var(--branco);
+
+
+}
+
+
+
+
+/*conteudo principal*/
+
+
+.pincipal{
+
+    padding: 1em;
+
+
+}
+
+.foto-das-lamborguines{
+
+    width: 30vw;
+    height: 32vh;
+
+}
+
+.imagem-e-video{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+}
+
+.p-lamborguine,.titulo-3{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 1em;
+}
+
+.titulo-3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+    background: var(--cor-links-header-e-cor-titulo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 200px;
+    text-align: center;
+}
+
+
+.p-lamborguine{
+
+font-size: 1.3em;
+ color: black;
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.video-lamborguine{
+
+  
+border-radius: 10px;
+width: 20vw;
+height: 30vh;
+padding-left: 1em;
+
+
+
+}
+
+.foto-das-lamborguines{
+
+border: 5px solid var(--branco);
+border-radius: 10px;
+margin-top: 1em;
+
+}
+
+
+/* footer*/
+
+.rodape-carro{
+
+background: url(img/bg.jpg);
+display: grid;
+justify-content: center;
+height: 30%;
+width: 100%;
+
+}
+
+.rodape-imagem-carro{
+
+width: 200px;
+height: 150px;
+padding-top:1em ;
+border-radius: 16px;
+}
+
+.rodape-paragrafo{
+
+color: var(--branco);
+padding: 1em 0;
+display: flex;
+justify-content: center;
+}
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    :root{
+
+        --branco:white;
+        --cor__header: linear-gradient(grey,black);
+        
+        --cor-links-header-e-cor-titulo:linear-gradient(white,grey);
+        
+        --cor__titulo-secundario:radial-gradient(black,white);
+        
+        --cor-da-borda:rgb(130, 124, 124);
+        }
+        
+    body{
+       background:  radial-gradient(white,grey,rgb(70, 67, 67)); 
+    }
+
+    .cabecalho-carro{
+        display:grid;       
+   }
+
+   .listas-header{
+      display: flex;
+      justify-content: start;
+      align-items: end;  
+   }
+       
+   .links{
+      display: flex;
+      padding-bottom: 1em;        
+      text-decoration: none;
+      align-items: center;
+      padding-left: 1em;
+   
+   }
+    
+   .links-carro{
+       text-decoration: none;
+       padding-left: 1em;
+       background: var(--cor-links-header-e-cor-titulo);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+        background-clip: text;
+       font-size: 1.5em;
+   }
+   
+   .titulo-header{
+       display: flex;
+       align-items: center;
+       justify-content: end;
+       padding-right:1em;
+       padding-bottom: 1em;
+       font-size: 2em;
+       font-family: 'Edu NSW ACT Foundation', cursive;
+       font-family: 'Sono', sans-serif; 
+       color: azure;
+   }
+
+   .titulo-carroprincipal{
+       height: 5vh;
+   }
+
+   .carrinho{
+       width: 40vw;
+       margin: 1em;
+       border-radius: 20px;
+       border: 5px solid aliceblue;
+       box-shadow: 3px 5px 2px 2px;
+   }
+
+/*main*/
+
+   .bannercarro{
+       width: 100vw;
+       opacity: 0.8;
+
+   }
+
+   .foto-das-lamborguines{
+       width: 80vw;
+       border-radius: 20px;
+       border: 3px solid white;
+   }
+
+   .video-lamborguine{
+       width: 100vw;
+       height: 40vh;
+       border-radius: 16px;
+   }
+
+   .imagem-e-video{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   }
+
+   .texto-secao-principal{
+       width: 70vw;
+       font-weight: bold;
+       padding-top: 1em;
+       padding-bottom: 1em;
+       text-decoration: underline black;
+       
+   }
+
+   .titulo-main-listas{
+   font-weight: bold;
+   padding: 1em;
+   font-size: 1.2em;
+   color: aliceblue;
+   } 
+   
+   .titulo-aventador{
+
+    color: black;
+   }
+
+/*footer*/
+       
+   .rodape-imagem-carro{
+   width: 20vw;
+   opacity: 0.8;
+   height: 20vh;
+   padding-top: 1em;
+   border-radius: 20px;
+   }
+
+   .rodape-carro{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: url(img/bg.jpg);
+   }
+
+   .rodape-paragrafo{   
+   font-size: 1em;
+   color: azure;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+@media screen and (max-width:425px){
+
+    :root{
+
+        --branco:white;
+        --cor__header: linear-gradient(grey,black);
+        
+        --cor-links-header-e-cor-titulo:linear-gradient(white,grey);
+        
+        --cor__titulo-secundario:radial-gradient(black,white);
+        
+        --cor-da-borda:rgb(130, 124, 124);
+        }
+        
+    body{
+       background:  radial-gradient(white,grey,rgb(70, 67, 67)); 
+    }
+
+/*header*/
+    .cabecalho-carro{
+         display:grid;       
+    }
+
+    .listas-header{
+       display: flex;
+       justify-content: start;
+       align-items: end;  
+    }
+        
+    .links{
+       display: flex;
+       padding-bottom: 1em;        
+       text-decoration: none;
+       align-items: center;
+       padding-left: 1em;
+    
+    }
+     
+    .links-carro{
+        text-decoration: none;
+        padding-left: 1em;
+        background: var(--cor-links-header-e-cor-titulo);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+         background-clip: text;
+        font-size: 1em;
+    }
+    
+    .titulo-header{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right:1em;
+        padding-bottom: 1em;
+        font-size: 1.2em;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-family: 'Sono', sans-serif; 
+        color: azure;
+    }
+
+    .titulo-carroprincipal{
+        height: 5vh;
+    }
+
+    .carrinho{
+        width: 40vw;
+        margin: 1em;
+        border-radius: 20px;
+        border: 5px solid aliceblue;
+        box-shadow: 3px 5px 2px 2px;
+    }
+
+/*main*/
+
+    .bannercarro{
+        width: 100vw;
+        opacity: 0.8;
+
+    }
+
+    .foto-das-lamborguines{
+        width: 80vw;
+        border-radius: 20px;
+        border: 3px solid white;
+    }
+
+    .video-lamborguine{
+        width: 100vw;
+        height: 30vh;
+        border-radius: 16px;
+    }
+
+    .imagem-e-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .texto-secao-principal{
+        width: 70vw;
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .titulo-main-listas{
+    font-weight: bold;
+    padding: 1em;
+    font-size: 1.2em;
+    color: aliceblue;
+    }
+
+/*footer*/
+        
+    .rodape-imagem-carro{
+    width: 100vw;
+    opacity: 0.8;
+    padding-top: 1em;
+    }
+
+    .rodape-carro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .rodape-paragrafo{   
+    font-size: 1em;
+    color: azure;
+    }
+}

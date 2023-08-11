@@ -1,0 +1,494 @@
+body{
+    background-color: #0B666A;
+
+ @media screen and (min-width:1440px){
+
+    .cabecalho{
+        opacity: 0.8;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background: url(https://images.pexels.com/photos/17490216/pexels-photo-17490216/free-photo-of-automotivo-automotor-automobilistico-carro.jpeg?auto=compress&cs=tinysrgb&w=1600);
+        
+
+
+    }
+        .imagem-desctop{
+
+            grid-area: 1/2/2/2;
+
+            display: flex;
+            justify-self: center;
+            padding-top: 1.5em;
+            border-radius: 15px;
+
+        }
+
+
+        .logo-bmw{
+            display: flex;
+            width: 20%;
+            border-radius: 20px;
+            
+        }
+
+        .titulo-cabecalho{
+            display:flex;
+            justify-self: start;
+            font-size: 1.5em;
+            padding-top: 1em;
+            padding-left: 1em;
+            font-family: 'Caveat', cursive;
+            color: #1B6B93;
+            font-weight: bold;
+            font-size: 1.5em;
+
+
+        }
+        .listas{    
+            display: flex;
+            align-items: end;
+            justify-content: space-evenly;
+
+        .links-lista{
+            display: flex;
+            align-items: center;
+
+                .link{
+                   padding-right: 1em;
+                   font-size: 2em;
+                   text-decoration: none;
+                   color: #071952;
+                   font-weight: bold;
+                   font-family:'Caveat', cursive; 
+                   
+                }
+        }
+
+        }
+
+        .secao-imagem{
+            background: #001C30;
+            height: 50vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+          .imagem-secao-imagem{
+            width: 30%;
+            height: 70%;
+            border-radius: 20px;
+           
+          }
+        }
+
+
+        .main-lista{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          
+
+                .item-lista{
+                    display: flex;
+                    justify-content: space-evenly;
+                      padding-bottom: 1em;
+                      padding-top: 1em;
+                }
+                .imagem-bmw{
+                   border-radius: 20px;
+                }
+                .diminuir-imagem{
+                    width: 270px;
+                    height: 200px;
+                }
+
+                .imagem-bmw-series2 {
+                    padding-right: 2.2em;
+                }
+                .secao-texto{
+                    width: 20%;
+                        .texto-bmw{
+                            font-size: 1.2em;
+                            color: #071952;
+                            font-weight: bold;
+                        }
+                }
+
+                .titulo-imagens-bmw{
+                    padding-top: 2em;
+                    font-size: 1.2em;
+                    color: aliceblue;
+                    font-family:'Caveat', cursive; 
+                
+                }
+                .texto-i4{
+                    padding-top: 5em;
+                    padding-right: 1em;
+                }
+
+
+                .imagem-i4{
+                    width: 27vw;
+                }
+
+        }
+
+        .rodape{
+
+             display: flex;
+            justify-content: center;
+            align-items: end;
+            background: url(img/bg.jpg);
+             height: 30vh;
+                
+             .texto-rodape{
+                 color: aliceblue;
+                 padding-bottom: 1em;
+                      
+                    
+              
+                }
+
+                .imagem-desctop{
+                    border-radius: 20px;
+                    padding-bottom: 1em;
+                }
+
+
+        }
+
+
+
+ }
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+.cabecalho{
+    opacity: 0.8;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: url(https://images.pexels.com/photos/17490216/pexels-photo-17490216/free-photo-of-automotivo-automotor-automobilistico-carro.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    
+
+ .imagem-desctop{
+
+        grid-area: 1/2/2/2;
+        display: flex;
+        justify-self: center;
+        padding-top: 1.5em;
+        border-radius: 15px;
+        width: 30vw;
+
+    }
+
+
+
+ .logo-bmw{
+        display: flex;
+        width: 10vw;
+        border-radius: 20px;
+        
+    }
+
+
+
+   
+    .titulo-cabecalho{
+        display:flex;
+        justify-self: start;
+        font-size: 1.5em;
+        padding-top: 1em;
+        padding-left: 1em;
+        font-family: 'Caveat', cursive;
+        color: #1B6B93;
+        font-weight: bold;
+        font-size: 1.5em;
+
+
+    }
+    .listas{    
+        display: flex;
+        align-items: end;
+        justify-content: space-evenly;
+
+    .links-lista{
+        display: flex;
+        align-items: center;
+
+            .link{
+               padding-right: 1em;
+               font-size: 1.5em;
+               text-decoration: none;
+               color: #071952;
+               font-weight: bold;
+               font-family:'Caveat', cursive; 
+               
+            }
+    }
+
+    }
+
+}
+   
+
+
+
+    .secao-imagem{
+        background: #001C30;
+        height: 30vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+      .imagem-secao-imagem{
+        width: 30%;
+        height: 60%;
+        border-radius: 20px;
+       
+      }
+    }
+
+
+    .main-lista{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+
+            .item-lista{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                  padding-top: 1em;
+            }
+            .imagem-bmw{
+               border-radius: 20px;
+               width: 60vw;
+               height: 40vh;
+               padding-top: 1em;
+            }
+            .diminuir-imagem{
+                width: 60vw;
+                height: 30vh
+            }
+
+            .imagem-bmw-series2 {
+                padding-right: 2.2em;
+            }
+            .secao-texto{
+                width: 20%;
+
+                    .texto-bmw{
+                        font-size: 1em;
+                        color: #071952;
+                        font-weight: bold;
+                        width: 40vw;
+                        padding-top: 1em;
+                    
+                    }
+            }
+
+            .titulo-imagens-bmw{
+            
+                font-size: 1.2em;
+                color: aliceblue;
+                font-family:'Caveat', cursive; 
+            
+            }
+            .texto-i4{
+                padding-top: 5em;
+                padding-right: 1em;
+            }
+
+
+            .imagem-i4{
+                width: 65vw;
+                height: 40vh;
+            }
+
+    }
+
+    .rodape{
+
+         display: flex;
+        justify-content: center;
+        align-items: end;
+        background: url(bg.jpg);
+         height: 30vh;
+            
+         .texto-rodape{
+             color: aliceblue;
+             padding-bottom: 1em;
+                  
+                
+          
+            }
+
+            .imagem-desctop{
+                border-radius: 20px;
+                padding-bottom: 1em;
+                width: 30vw;
+            }
+
+
+    }
+
+}
+
+@media screen and (max-width:425px){
+
+    .cabecalho{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQExmMMu-uEDYunYyJJpkc1G3T1vLblPXz1NA&usqp=CAU);
+        opacity: 0.8;
+        text-align: center;
+        height: 25vh;
+
+        .imagem-desctop{
+            display: none;
+        }
+        .titulo-imagem{
+
+        display: flex;
+        justify-content: center;
+        
+            .titulo-cabecalho{
+
+                padding-top: 1em;
+                color: #1B6B93;
+                font-weight: bold;
+                text-transform: uppercase;
+
+              
+            }
+
+            .logo-bmw{
+                height: 5vh;
+                width: 15vw;
+                opacity: 0.8;
+                border-radius: 20px;
+                padding-left: 0.5em;
+                padding-top:0.5em ;
+
+            }
+        }
+
+            .listas{
+                height: 15vh;
+                display: flex;
+            justify-content: space-evenly;
+             align-items: end;   
+
+                .links-lista{
+
+                    display: flex;
+
+                        .link{
+                            font-size: 0.7em;
+                            color: white;
+                            font-weight: bold;
+                            margin-right: 1em;
+                          
+                        }
+
+                }
+            }
+
+
+    }
+    .secao-imagem{
+        display: none;
+    }
+
+   .secao-principal{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+    .item-lista{
+
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+
+        .titulo-imagens-bmw{
+
+            font-size: 1em;
+            color: #97FEED;
+            font-weight: bold;
+            padding-top: 1em;
+
+
+        }
+
+        .imagem-bmw{
+
+            border-radius: 11px;
+
+        }
+
+        .secao-texto{
+            padding-top: 1em;
+            width: 80vw;
+
+            .texto-bmw{
+                font-weight: bold;
+                font-size: 1em;
+                color: #071952;
+
+
+
+
+          
+
+
+
+
+
+            }
+
+        }
+
+
+
+    }
+
+
+
+
+
+   
+
+
+
+
+
+}
+
+
+.rodape{
+display: flex;
+justify-content: center;
+align-items: end;
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReeDN122j17QBf7J-syS_XdCp7IBfA4QNLpA&usqp=CAU);
+height: 30vh;
+
+    .texto-rodape{
+        color: aliceblue;
+      
+    }
+    .imagem-desctop{
+        display: none;
+    }
+
+}
+
+ }
+}
