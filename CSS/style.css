@@ -316,7 +316,7 @@
     font-size: 1.5em;
   }
   body .rodape {
-    background: #526D82;
+   background-color: #526D82;
     display: flex;
     flex-direction: column;
     align-items: center;
